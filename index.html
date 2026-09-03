@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arsema Gebreselama — Architectural &amp; Interior Designer | Dubai, UAE</title>
+  <meta name="description" content="Arsema Gebreselama — Architectural &amp; Interior Designer and 3D Visualizer based in Dubai, UAE. Creating thoughtful spaces where architecture, function, and visual storytelling meet." />
+  <meta name="keywords" content="Arsema Gebreselama, Architecture, Interior Design, 3D Visualization, Dubai, UAE, Architectural Designer" />
+  <meta property="og:title" content="Arsema Gebreselama — Architectural &amp; Interior Designer" />
+  <meta property="og:description" content="Creating thoughtful spaces where architecture, function, and visual storytelling meet." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500;600&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Safety: ensure loading screen never permanently blocks the page -->
+  <style>
+    /* Immediate override in case JS or transitions stall */
+    .loading-screen { animation: none; }
+  </style>
+  <noscript>
+    <style>
+      .loading-screen { display: none !important; }
+      body { overflow: auto !important; cursor: auto !important; }
+      .cursor-dot, .cursor-ring { display: none !important; }
+    </style>
+  </noscript>
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loading-screen" aria-hidden="true">
+    <div class="loading-name">
+      <span class="loading-name-inner">Arsema Gebreselama</span>
+    </div>
+    <div class="loading-bar-wrap">
+      <div class="loading-bar"></div>
+    </div>
+  </div>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"  aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- ── NAVIGATION ─────────────────────────────────────── -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <a href="#home" class="nav-logo" aria-label="Arsema Gebreselama – Home">
+      <span class="nav-logo-name">Studio Nine</span>
+      <span class="nav-logo-title">Architectural Designer &amp; 3D Visualizer</span>
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#home"      class="nav-link">Home</a></li>
+      <li><a href="#about"     class="nav-link">About</a></li>
+      <li><a href="#work"      class="nav-link">Projects</a></li>
+      <li><a href="#expertise" class="nav-link">Expertise</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#workwithme" class="nav-link">Work With Me</a></li>
+      <li><a href="#contact"   class="nav-link">Contact</a></li>
+    </ul>
+
+    <a href="#workwithme" class="nav-cta">Work With Me</a>
+
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Navigation -->
+  <div class="nav-mobile" role="dialog" aria-label="Mobile navigation">
+    <a href="#home"       class="nav-mobile-link">Home</a>
+    <a href="#about"      class="nav-mobile-link">About</a>
+    <a href="#work"       class="nav-mobile-link">Projects</a>
+    <a href="#expertise"  class="nav-mobile-link">Expertise</a>
+    <a href="#education"  class="nav-mobile-link">Education</a>
+    <a href="#workwithme" class="nav-mobile-link">Work With Me</a>
+    <a href="#contact"    class="nav-mobile-link">Contact</a>
+  </div>
+
+  <main>
+
+    <!-- ── HERO ─────────────────────────────────────────── -->
+    <section id="home" class="hero" aria-label="Hero">
+      <div class="hero-bg" aria-hidden="true">
+        <img
+          src="imagearsu/Geralta resort/0.jpg"
+          alt="Geralta Resort — architectural visualization"
+          loading="eager"
+          fetchpriority="high"
+        />
+        <div class="hero-bg-overlay"></div>
+      </div>
+
+      <div class="hero-content container">
+        <p class="hero-eyebrow reveal">Architectural &amp; Interior Designer · 3D Visualizer</p>
+        <h1 class="hero-name reveal reveal-delay-1">
+          Arsema<br><em>Gebreselama</em>
+        </h1>
+        <p class="hero-tagline reveal reveal-delay-2">
+          Creating thoughtful spaces where architecture,<br>
+          function, and visual storytelling meet.
+        </p>
+        <div class="hero-ctas reveal reveal-delay-3">
+          <a href="#work"      class="btn btn-ghost">View Selected Work <span class="btn-arrow">↓</span></a>
+          <a href="#workwithme" class="btn btn-terracotta">Work With Me <span class="btn-arrow">→</span></a>
+        </div>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <div class="hero-scroll-line"></div>
+        <span>Scroll to Explore</span>
+      </div>
+    </section>
+
+    <!-- ── INTRODUCTION ──────────────────────────────────── -->
+    <section id="intro" class="intro" aria-label="Introduction">
+      <div class="container">
+        <div class="intro-inner">
+          <div class="intro-left">
+            <p class="section-label reveal">Portfolio</p>
+            <h2 class="intro-headline reveal reveal-delay-1">
+              Designing spaces<br><em>with purpose.</em>
+            </h2>
+          </div>
+          <div class="intro-right">
+            <p class="intro-body reveal reveal-delay-2">
+              Architecture graduate, Architectural &amp; Interior Designer, and 3D Visualizer
+              based in Dubai, UAE. I combine design thinking with spatial intuition and
+              technical precision to create environments that are both beautiful and
+              meaningfully experienced.
+            </p>
+            <div class="intro-stats reveal reveal-delay-3">
+              <div class="stat-item">
+                <div class="stat-number"><span class="count-up" data-target="5" data-suffix="+">5+</span></div>
+                <div class="stat-label">Projects</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number"><span class="count-up" data-target="6" data-suffix="+">6+</span></div>
+                <div class="stat-label">Design Tools</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number"><span class="count-up" data-target="3" data-suffix="">3</span></div>
+                <div class="stat-label">Languages</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number"><span class="count-up" data-target="1" data-suffix="">1</span></div>
+                <div class="stat-label">Architecture Degree</div>
+              </div>
+            </div>
+            <a href="#about" class="btn btn-outline reveal reveal-delay-4">
+              Discover My Story <span class="btn-arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SELECTED WORK ─────────────────────────────────── -->
+    <section id="work" class="work" aria-label="Selected Work">
+      <div class="container">
+        <div class="work-header">
+          <div>
+            <p class="section-label reveal" style="color:var(--stone-mid);--terracotta:var(--stone-mid);">
+              <span style="display:inline-flex;align-items:center;gap:1rem;">
+                <span style="display:block;width:2.5rem;height:1px;background:var(--stone-mid);"></span>
+                Selected Work
+              </span>
+            </p>
+            <h2 class="work-headline reveal reveal-delay-1">Featured<br><em style="font-style:italic;">Projects</em></h2>
+          </div>
+          <p class="reveal reveal-delay-2" style="font-size:0.88rem;color:var(--stone);max-width:340px;line-height:1.8;font-weight:300;">
+            A selection of architectural, interior, and 3D visualization projects
+            spanning commercial, hospitality, residential, and academic design.
+          </p>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <div class="projects-grid">
+
+        <!-- 01 — WAYEB Office -->
+        <a href="wayeb-office.html" class="project-item reveal">
+          <div class="project-img-wrap">
+            <img
+              src="imagearsu/ WAYEB office/1_10 - Photo.jpg"
+              alt="WAYEB Office Interior"
+              loading="lazy"
+            />
+            <div class="project-img-overlay"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-number">01</span>
+            <div class="project-meta">
+              <span class="project-category">Office · Interior Design</span>
+              <h3 class="project-title">WAYEB<br>Office</h3>
+              <p class="project-desc">
+                A contemporary office interior that balances open collaboration
+                with focused work environments, informed by ergonomic principles
+                and refined material selection.
+              </p>
+            </div>
+            <div class="project-link-row">
+              <span class="project-view">
+                <span class="project-view-line"></span>
+                View Project
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <!-- 02 — Geralta Resort -->
+        <a href="geralta-resort.html" class="project-item reveal">
+          <div class="project-img-wrap">
+            <img
+              src="imagearsu/Geralta resort/0.jpg"
+              alt="Geralta Resort Exterior"
+              loading="lazy"
+            />
+            <div class="project-img-overlay"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-number">02</span>
+            <div class="project-meta">
+              <span class="project-category">Hospitality · Architecture</span>
+              <h3 class="project-title">Geralta<br>Resort</h3>
+              <p class="project-desc">
+                An architecturally considered resort design set against the
+                dramatic landscape of Geralta, integrating natural terrain,
+                local vernacular, and contemporary spatial experience.
+              </p>
+            </div>
+            <div class="project-link-row">
+              <span class="project-view">
+                <span class="project-view-line"></span>
+                View Project
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <!-- 03 — Kaz Highrise -->
+        <a href="kaz-highrise.html" class="project-item reveal">
+          <div class="project-img-wrap">
+            <img
+              src="imagearsu/Kaz Highrise/Image(6).png"
+              alt="Kaz Highrise Exterior Render"
+              loading="lazy"
+            />
+            <div class="project-img-overlay"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-number">03</span>
+            <div class="project-meta">
+              <span class="project-category">High-Rise · Architecture</span>
+              <h3 class="project-title">Kaz<br>Highrise</h3>
+              <p class="project-desc">
+                A high-rise architectural concept exploring vertical urban living
+                through a sculptural facade, efficient floor planning, and
+                elevated amenity design.
+              </p>
+            </div>
+            <div class="project-link-row">
+              <span class="project-view">
+                <span class="project-view-line"></span>
+                View Project
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <!-- 04 — University Landscape -->
+        <a href="university-landscape.html" class="project-item reveal">
+          <div class="project-img-wrap">
+            <img
+              src="imagearsu/University Landscape/lan1.png"
+              alt="University Landscape Design"
+              loading="lazy"
+            />
+            <div class="project-img-overlay"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-number">04</span>
+            <div class="project-meta">
+              <span class="project-category">Landscape · Institutional</span>
+              <h3 class="project-title">University<br>Landscape</h3>
+              <p class="project-desc">
+                A landscape architecture project designing outdoor educational
+                spaces that encourage gathering, movement, and environmental
+                connection within an institutional setting.
+              </p>
+            </div>
+            <div class="project-link-row">
+              <span class="project-view">
+                <span class="project-view-line"></span>
+                View Project
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <!-- 05 — Chinese Restaurant -->
+        <a href="chinese-restaurant.html" class="project-item reveal">
+          <div class="project-img-wrap">
+            <img
+              src="imagearsu/chinese restaurant/Image(2)_upscale01.png"
+              alt="Chinese Restaurant Interior Design"
+              loading="lazy"
+            />
+            <div class="project-img-overlay"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-number">05</span>
+            <div class="project-meta">
+              <span class="project-category">Restaurant · Interior Design</span>
+              <h3 class="project-title">Chinese<br>Restaurant</h3>
+              <p class="project-desc">
+                A culturally immersive restaurant interior drawing on traditional
+                Chinese spatial motifs, material warmth, and curated lighting
+                to compose an authentic dining atmosphere.
+              </p>
+            </div>
+            <div class="project-link-row">
+              <span class="project-view">
+                <span class="project-view-line"></span>
+                View Project
+              </span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ── THESIS FEATURE ────────────────────────────────── -->
+    <section id="thesis" class="thesis" aria-label="Architecture Thesis">
+      <div class="container">
+        <div class="thesis-inner">
+          <div class="thesis-text">
+            <p class="section-label thesis-label reveal">Architecture Thesis</p>
+            <p class="thesis-kicker reveal">Bachelor of Architecture · Unity University · 2026</p>
+            <h2 class="thesis-headline reveal reveal-delay-1">
+              Revitalizing Vernacular Architecture as a Sustainable Model for Tigray Hidmo House Design
+            </h2>
+            <p class="thesis-body reveal reveal-delay-2">
+              An in-depth research and design thesis exploring how the traditional Tigray
+              Hidmo vernacular house typology can serve as a sustainable architectural
+              model for contemporary design. The work examines spatial organization,
+              passive climate strategies, local material systems, and cultural continuity —
+              proposing a framework that honors heritage while addressing present-day needs.
+            </p>
+            <div class="reveal reveal-delay-3">
+              <a href="#education" class="btn btn-outline">
+                View Education <span class="btn-arrow">→</span>
+              </a>
+            </div>
+          </div>
+          <div class="thesis-visual reveal-right">
+            <div class="thesis-img-main">
+              <img
+                src="imagearsu/Geralta resort/7.jpg"
+                alt="Vernacular architecture reference — Geralta landscape"
+                loading="lazy"
+              />
+            </div>
+            <div class="thesis-img-accent" aria-hidden="true">
+              <img
+                src="imagearsu/Geralta resort/b.jpg"
+                alt="Architectural detail reference"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ME ───────────────────────────────────────── -->
+    <section id="about" class="about" aria-label="About Arsema">
+      <div class="container">
+        <div class="about-inner">
+          <div class="about-portrait-wrap reveal-left">
+            <div class="about-portrait">
+              <img
+                src="imagearsu/my pic /PHDE0318.jpg"
+                alt="Arsema Gebreselama — Architectural Designer"
+                loading="lazy"
+              />
+            </div>
+            <div class="about-portrait-caption">
+              <div class="caption-name">Arsema Gebreselama</div>
+              <div class="caption-title">Dubai, United Arab Emirates</div>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <div class="about-label">
+              <p class="section-label reveal">About</p>
+            </div>
+
+            <blockquote class="about-quote reveal reveal-delay-1">
+              "Architecture, to me, is more than creating buildings — it is about
+              shaping experiences, responding thoughtfully to people and place,
+              and communicating ideas through space."
+            </blockquote>
+
+            <p class="about-bio reveal reveal-delay-2">
+              I am a creative and detail-oriented Architecture graduate with a deep passion
+              for architectural and interior design. My work spans concept development,
+              spatial solutions, technical drawing, and 3D visualization — bringing together
+              a broad skill set to realize cohesive, considered design outcomes.
+            </p>
+            <p class="about-bio reveal reveal-delay-2">
+              Currently based in Dubai, UAE, I am eager to contribute to dynamic design
+              studios and practices that value precision, creativity, and meaningful
+              design intent. I bring experience with industry-standard tools and a
+              commitment to thoughtful, communicative design at every stage of the process.
+            </p>
+
+            <div class="about-details reveal reveal-delay-3">
+              <div class="about-detail-item">
+                <div class="about-detail-label">Based In</div>
+                <div class="about-detail-value">Dubai, UAE</div>
+              </div>
+              <div class="about-detail-item">
+                <div class="about-detail-label">Discipline</div>
+                <div class="about-detail-value">Architecture &amp; Interior Design</div>
+              </div>
+              <div class="about-detail-item">
+                <div class="about-detail-label">Specialization</div>
+                <div class="about-detail-value">3D Visualization</div>
+              </div>
+              <div class="about-detail-item">
+                <div class="about-detail-label">Languages</div>
+                <div class="about-detail-value">English · Amharic · Tigrigna</div>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn btn-ghost reveal reveal-delay-4" style="--ivory:var(--ivory);border-color:rgba(247,244,239,0.4);color:var(--ivory);">
+              Get In Touch <span class="btn-arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EXPERTISE ─────────────────────────────────────── -->
+    <section id="expertise" class="expertise" aria-label="Expertise">
+      <div class="container">
+        <div class="expertise-header">
+          <div>
+            <p class="section-label reveal">Expertise</p>
+            <h2 class="expertise-headline reveal reveal-delay-1">
+              What I<br><em style="font-style:italic;color:var(--terracotta);">Bring</em>
+            </h2>
+          </div>
+          <p class="expertise-intro reveal reveal-delay-2">
+            A multidisciplinary skill set spanning architectural design, interior
+            spatial thinking, and technical 3D visualization — developed through
+            rigorous academic training and project-based practice.
+          </p>
+        </div>
+
+        <div class="expertise-areas">
+          <div class="expertise-area reveal">
+            <div class="expertise-num">01</div>
+            <h3 class="expertise-name">Architectural Design</h3>
+            <div class="expertise-skills">
+              <span class="skill-tag">Architectural Design</span>
+              <span class="skill-tag">Concept Development</span>
+              <span class="skill-tag">Space Planning</span>
+              <span class="skill-tag">Sustainable Design</span>
+              <span class="skill-tag">Technical Drawing</span>
+              <span class="skill-tag">Architectural Presentation</span>
+            </div>
+          </div>
+          <div class="expertise-area reveal reveal-delay-1">
+            <div class="expertise-num">02</div>
+            <h3 class="expertise-name">Interior &amp; Spatial Design</h3>
+            <div class="expertise-skills">
+              <span class="skill-tag">Interior Design</span>
+              <span class="skill-tag">Space Planning</span>
+              <span class="skill-tag">Concept Development</span>
+              <span class="skill-tag">Visual Communication</span>
+              <span class="skill-tag">Material Selection</span>
+              <span class="skill-tag">Mood Boarding</span>
+            </div>
+          </div>
+          <div class="expertise-area reveal reveal-delay-2">
+            <div class="expertise-num">03</div>
+            <h3 class="expertise-name">3D Visualization</h3>
+            <div class="expertise-skills">
+              <span class="skill-tag">3D Visualization</span>
+              <span class="skill-tag">Architectural Rendering</span>
+              <span class="skill-tag">Architectural Presentation</span>
+              <span class="skill-tag">Design Communication</span>
+              <span class="skill-tag">Real-Time Rendering</span>
+              <span class="skill-tag">Post-Production</span>
+            </div>
+          </div>
+          <div class="expertise-area reveal reveal-delay-3">
+            <div class="expertise-num">04</div>
+            <h3 class="expertise-name">Professional Skills</h3>
+            <div class="expertise-skills">
+              <span class="skill-tag">Creative Problem-Solving</span>
+              <span class="skill-tag">Attention to Detail</span>
+              <span class="skill-tag">Team Collaboration</span>
+              <span class="skill-tag">Communication</span>
+              <span class="skill-tag">Time Management</span>
+              <span class="skill-tag">Client Coordination</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Toolkit -->
+        <div class="toolkit">
+          <h3 class="toolkit-headline reveal">
+            Design Toolkit
+          </h3>
+          <div class="toolkit-list">
+            <div class="toolkit-item reveal">
+              <span class="toolkit-name">Revit</span>
+              <span class="toolkit-type">BIM &amp; Documentation</span>
+            </div>
+            <div class="toolkit-item reveal reveal-delay-1">
+              <span class="toolkit-name">AutoCAD</span>
+              <span class="toolkit-type">Technical Drawing</span>
+            </div>
+            <div class="toolkit-item reveal reveal-delay-2">
+              <span class="toolkit-name">D5 Render</span>
+              <span class="toolkit-type">Real-Time Rendering</span>
+            </div>
+            <div class="toolkit-item reveal reveal-delay-3">
+              <span class="toolkit-name">Adobe Photoshop</span>
+              <span class="toolkit-type">Visualization &amp; Post-Production</span>
+            </div>
+            <div class="toolkit-item reveal reveal-delay-4">
+              <span class="toolkit-name">Adobe Illustrator</span>
+              <span class="toolkit-type">Graphic Communication</span>
+            </div>
+            <div class="toolkit-item reveal reveal-delay-4">
+              <span class="toolkit-name">SketchUp</span>
+              <span class="toolkit-type">3D Modelling</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EDUCATION ─────────────────────────────────────── -->
+    <section id="education" class="education" aria-label="Education">
+      <div class="container">
+        <div class="education-inner">
+          <div>
+            <p class="section-label reveal">Education</p>
+            <h2 class="education-headline reveal reveal-delay-1">
+              Academic<br><em style="font-style:italic;color:var(--terracotta);">Foundation</em>
+            </h2>
+          </div>
+          <div class="education-entries">
+            <div class="edu-entry reveal">
+              <span class="edu-year">2026</span>
+              <div>
+                <h3 class="edu-degree">Bachelor of Architecture &amp; Urban Planning</h3>
+                <p class="edu-school">Unity University</p>
+                <p class="edu-location">Addis Ababa, Ethiopia</p>
+                <blockquote class="edu-thesis">
+                  Thesis: <em>Revitalizing Vernacular Architecture as a Sustainable Model
+                  for Tigray Hidmo House Design</em> — An exploration of indigenous
+                  architectural knowledge as a basis for sustainable contemporary design.
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── WORK WITH ME ──────────────────────────────────── -->
+    <section id="workwithme" class="work-with-me" aria-label="Work With Me">
+      <div class="container">
+        <h2 class="wwm-headline reveal">
+          Have a project
+          <em>in mind?</em>
+        </h2>
+        <p class="wwm-sub reveal reveal-delay-1">
+          Whether you have a design brief, a vision to develop, or simply want
+          to explore a collaboration — I'd love to hear from you.
+        </p>
+        <div class="wwm-options reveal reveal-delay-2" role="list">
+          <span class="wwm-option" role="listitem">Architectural Design</span>
+          <span class="wwm-option" role="listitem">Interior Design</span>
+          <span class="wwm-option" role="listitem">3D Visualization</span>
+          <span class="wwm-option" role="listitem">Collaborations</span>
+          <span class="wwm-option" role="listitem">Career Opportunities</span>
+        </div>
+        <div class="wwm-ctas reveal reveal-delay-3">
+          <a href="#contact" class="btn btn-terracotta">
+            Start a Project <span class="btn-arrow">→</span>
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            Contact Me <span class="btn-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ───────────────────────────────────────── -->
+    <section id="contact" class="contact" aria-label="Contact">
+      <div class="container">
+        <div class="contact-inner">
+
+          <div class="contact-left">
+            <p class="section-label reveal">Contact</p>
+            <h2 class="contact-statement reveal reveal-delay-1">
+              Let's create<br>
+              something<br>
+              <em>meaningful.</em>
+            </h2>
+            <div class="contact-details reveal reveal-delay-2">
+              <div class="contact-item">
+                <span class="contact-item-label">Email</span>
+                <a href="mailto:arsemagebreselama@gmail.com" class="contact-item-value">
+                  arsemagebreselama@gmail.com
+                </a>
+              </div>
+              <div class="contact-item">
+                <span class="contact-item-label">Phone</span>
+                <a href="tel:+251943017343" class="contact-item-value">
+                  +251 943 017 343
+                </a>
+              </div>
+              <div class="contact-item">
+                <span class="contact-item-label">Location</span>
+                <span class="contact-item-value">Dubai, United Arab Emirates</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form reveal reveal-delay-2" novalidate aria-label="Contact form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Name *</label>
+                <input
+                  type="text"
+                  id="contact-name"
+                  name="name"
+                  class="form-input"
+                  placeholder="Your full name"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Email *</label>
+                <input
+                  type="email"
+                  id="contact-email"
+                  name="email"
+                  class="form-input"
+                  placeholder="your@email.com"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contact-company" class="form-label">Company / Studio</label>
+              <input
+                type="text"
+                id="contact-company"
+                name="company"
+                class="form-input"
+                placeholder="Your company or studio name"
+                autocomplete="organization"
+              />
+            </div>
+            <div class="form-group">
+              <label for="contact-type" class="form-label">Project Type *</label>
+              <select id="contact-type" name="project_type" class="form-select" required>
+                <option value="" disabled selected>Select a project type</option>
+                <option value="architecture">Architecture</option>
+                <option value="interior">Interior Design</option>
+                <option value="visualization">3D Visualization</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="career">Career Opportunity</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Message *</label>
+              <textarea
+                id="contact-message"
+                name="message"
+                class="form-textarea"
+                placeholder="Tell me about your project, brief, or inquiry..."
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <div class="form-message" role="alert" aria-live="polite"></div>
+            <div class="form-submit">
+              <button type="submit" class="btn btn-dark">
+                Send Inquiry <span class="btn-arrow">→</span>
+              </button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ────────────────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="footer-logo-name">Arsema Gebreselama</div>
+          <div class="footer-logo-sub">Architectural Designer · 3D Visualizer</div>
+          <a href="mailto:arsemagebreselama@gmail.com" class="footer-email">
+            arsemagebreselama@gmail.com
+          </a>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#home"       class="footer-nav-link">Home</a>
+          <a href="#about"      class="footer-nav-link">About</a>
+          <a href="#work"       class="footer-nav-link">Projects</a>
+          <a href="#expertise"  class="footer-nav-link">Expertise</a>
+          <a href="#education"  class="footer-nav-link">Education</a>
+          <a href="#workwithme" class="footer-nav-link">Work With Me</a>
+          <a href="#contact"    class="footer-nav-link">Contact</a>
+        </nav>
+
+        <div class="footer-right">
+          <span class="footer-location">Dubai, United Arab Emirates</span>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2026 Arsema Gebreselama. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
